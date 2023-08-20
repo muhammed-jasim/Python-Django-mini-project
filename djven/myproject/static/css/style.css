@@ -1,0 +1,221 @@
+.nav-link:hover{
+    background-color: rgb(174, 190, 205);
+    color: white;
+    border-radius: 10px;
+}
+a{
+    border-radius: 10px;
+}
+.navbar-brand{
+    color:rgb(0, 0, 0);
+    font-weight: 700;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-inline-end: 15px;
+    color: black;
+}
+.container-fluid{
+    padding-left: 4%;
+}
+.welcome-note{
+    text-align: center;
+}
+.active img{
+    /* width: 100%; */
+    /* height:auto; */
+    object-fit: cover;
+    /* object-position: center; */
+}
+
+.navbar{
+    background-color:rgb(197, 209, 220)  ;
+    /* position:fixed; */
+    z-index: 5;
+    width: 100%;
+    height: 10vh;
+}
+
+
+        /* index / home -section */
+
+.home-div .carousel-item{   
+    height: 90vh;
+    /* border: 2px solid red; */
+}
+.carousel-item img{
+    height:100vh;
+    object-fit:cover;
+    /* border: 5px solid red; */
+}
+
+
+
+    /* about section */
+
+.about-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+    background-color: aliceblue;
+}
+.about-content{
+    /* align-items: ; */
+    /* margin-top: 10px 10px; */
+    width: 75%;
+}
+
+
+    /* course section */
+
+/* .courses-div{
+    display: flex;
+    padding: 4%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.courses{
+    width: 30%;
+    height: 30%;
+    border: 2px solid red;
+}
+.course{
+    color: yellow;
+} */
+.course-div{
+    height: 90vh;
+    background-color: aliceblue;
+}
+.card{
+    /* background-color: rgb(240, 248, 255); */
+    /* background-color:rgb(197, 209, 220)  ; */
+    text-align: center;
+    /* color: blue; */
+
+}
+
+.col .card{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%; 
+    padding: 10px;
+}
+.row{
+    /* height: 80vh; */
+    width: 80%;
+    /* border: 2px solid rgb(44, 255, 157); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 5%; */
+    
+}
+.col{
+    /* width:30%; */
+    /* border: 5px solid red; */
+    /* padding: 2%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.rows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+     /* teachers css */
+
+
+.teachers-div{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: aliceblue;
+
+}
+
+    /* contact section */
+
+.form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    /* border: 2px solid red; */
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.contact-div{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: aliceblue;
+
+}
+.contact-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-btn{   
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius:10px;
+    outline: none;
+    background-color:rgb(197, 209, 220)  ;
+    border-color: rgb(144, 146, 148);
+    outline: none;
+    /* border: none; */
+    /* border: 0.5px solid black; */    
+}
+.contact-btn:hover{
+    background-color: rgb(66, 66, 198);
+    color: aliceblue;
+}
+
+
+.contact-submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: aliceblue;
+}
+.contact-submit h4{
+    padding: 10px ;
+    text-align: center;
+}

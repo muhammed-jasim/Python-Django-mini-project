@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block title %}contacts{% endblock title %}
+{% block content %}
+{% comment %} <h2>hello contact</h2> {% endcomment %}
+<div class="contact-div">
+    <h2 class="heading">Contact us.</h2>
+    <div class="form-div" >
+        <form action="" method="POST">
+            {% csrf_token %}
+            {{form|crispy}}
+            <div class="contact-btn-div">
+                <button class="contact-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock content %}
